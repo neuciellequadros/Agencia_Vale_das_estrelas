@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO DE COMPRA - Vale das Estrelas </title>
+    <link rel="stylesheet" href="/style/cadastro.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/images/fada-removebg-preview.png" type="image/x-icon">
+   
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html"><img src="/images/ValeLaranja.png"
+                alt="Imagem da logo vale das estrelas"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/contato.html">Contato</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Page/cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--FINAL NAVBAR-->
+
+    <!--INICIO CADASTRO-->
+    <div class="fundo">
+    <div class="container ">
+        <div class="text-center mb-4 mt-4">
+            <img aria-colspan="logoCadas" src="/images/foto-principal.png" alt="Logo da Agência Vale das Estrelas" class="logo">
+        </div>
+        <h2 class="text-center">Cadastro de Viagem</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome">
+            </div>
+            <div class="form-group">
+                <label for="documento">Documento (Somente números):</label>
+                <input type="number" class="form-control" id="documento" name="documento">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="cadastro-viajantes">Cadastro dos Viajantes:</label><br>
+                <label for="email">Viajante 1 -</label>
+                <label for="email">Nome Completo:</label>
+                <input type="text" class="form-control" id="name" name="name" >
+
+                <label for="email">Viajante 2 -</label>
+                <label for="email">Nome Completo:</label>
+                <input type="text" class="form-control" id="name" name="name" >
+
+                <label for="email">Viajante 3 -</label>
+                <label for="email">Nome Completo:</label>
+                <input type="text" class="form-control" id="name" name="name" >
+
+                <label for="email">Viajante 4 -</label>
+                <label for="email">Nome Completo:</label>
+                <input type="text" class="form-control" id="name" name="name" >
+
+                <div class="form-group">
+                    <label for="cadastro-viajantes">Cadastro de mais viajantes:</label>
+                    <textarea class="form-control" id="cadastro-viajantes" name="cadastro-viajantes" rows="3" ></textarea>
+                </div>
+
+                
+               
+            </div>
+            <div class="form-group">
+                <label>Forma de Pagamento:</label><br>
+                <input type="radio" id="cartao" name="forma-pagamento" value="cartao">
+                <label for="cartao">Cartão</label><br>
+                <input type="radio" id="boleto" name="forma-pagamento" value="boleto">
+                <label for="boleto">Boleto</label><br>
+                <input type="radio" id="pix" name="forma-pagamento" value="pix">
+                <label for="pix">Pix</label><br>
+                <input type="radio" id="parcelado" name="forma-pagamento" value="parcelado">
+                <label for="parcelado">Parcelado</label>
+            </div>
+            <div class="form-group">
+                <label for="dias-viagem">Quantos Dias Irão Ficar na Viagem: (Somente números)</label>
+                <input type="number" class="form-control" id="dias-viagem" name="dias-viagem">
+            </div>
+            <div class="form-group">
+                <label>Opção de Voo:</label><br>
+                <input type="radio" id="voo-sim" name="opcao-voo" value="sim">
+                <label for="voo-sim">Sim</label><br>
+                <input type="radio" id="voo-nao" name="opcao-voo" value="nao">
+                <label for="voo-nao">Não</label>
+            </div>
+            <div class="form-group">
+                <label>Opção de Hotel:</label><br>
+                <input type="radio" id="hotel-sim" name="opcao-hotel" value="sim">
+                <label for="hotel-sim">Sim</label><br>
+                <input type="radio" id="hotel-nao" name="opcao-hotel" value="nao">
+                <label for="hotel-nao">Não</label>
+            </div>
+            <div class="form-group">
+                <label for="data-partida">Data de Partida:</label><br>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label for="data-partida">Data de Volta:</label><br>
+                <input type="date">
+            </div>
+
+            <a href="ultimaPagina.html" class="btn btn-dark">Cadastrar</a>
+        </form>
+    </div>
+
+    <!--FIM CADASTRO-->
+<hr>
+ <!-- Footer -->
+ <footer class="footer">
+    <div class="container text-center">
+        <p>&copy; Vale das Estrelas - Todos os direitos reservados - Neucielle Quadros - RecodePro</p>
+        <br>
+    </div>
+</footer>
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

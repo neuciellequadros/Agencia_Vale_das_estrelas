@@ -1,0 +1,50 @@
+body {
+    font-family: 'Ysabeau Infant', sans-serif;
+  
+   
+    
+}
+
+.collapse{
+    font-size: 22px;
+}
+
+.cardsDestinos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: center;
+    
+    
+}
+.carrossel {
+    background: url('https://www.transparenttextures.com/patterns/stardust.png'), #000000;
+    color: #fff;
+    background-blend-mode: lighten;
+}
+
+.textodestino {
+    text-align: center;
+    background-color: #ba4a09;
+    padding-top: 2%;
+    color: white;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width:426px){
+    .textodestino{
+        font-size: 22px;
+    }
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ba4a09;
+   
+}

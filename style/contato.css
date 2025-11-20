@@ -1,0 +1,45 @@
+body {
+    font-family: 'Ysabeau Infant', sans-serif;
+    background: url(img/stardust.png), #000000;
+            color: #fff;
+            background-blend-mode: lighten;
+
+    
+}
+
+.collapse{
+    font-size: 22px;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container textarea,
+.form-container input {
+    background-color: rgba(255, 255, 255, 0.081);
+    color: #fff;
+}
+
+.btn 
+.btn-dark {
+    background-color: #000000;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.form-container .btn:hover {
+    background-color: #ba4a09;
+}
+
+span {
+    color: #ba4a09;
+}
+

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Ysabeau Infant', sans-serif;
+    background: url(img/stardust.png), #000000;
+    color: #fff;
+    background-blend-mode: lighten;
+    
+}
+
+.collapse{
+    font-size: 22px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(172, 48, 3, 0.704);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ba4a09;
+}
+
+h5 {
+    color: #000000;
+}

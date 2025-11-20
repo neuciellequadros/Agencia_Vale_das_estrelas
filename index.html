@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME - Vale das Estrelas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="shortcut icon" href="images/fada-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="/images/ValeLaranja.png" alt="Imagem da logo vale das estrelas"></a>
+        <button  type="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/contato.html">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/Page/cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--FINAL NAVBAR-->
+   
+    <section class="secaoUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Bem-vindo ao Vale das Estrelas</h1>
+                    <p style="font-size: 25px;">O voo do céu para os <strong>seus sonhos </strong>. </p>
+                    <p>Vem com o vale, que te levamos aos lugares que algum dia já sonhou em conhecer, especialmente aqueles imaginados na infância. Pois além de dar nostalgia, deixaremos seu coração quentinho. </p>
+                    <a href="destinos.html" class="btn btn-light">Venha sonhar com a gente!</a>
+            
+                    
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/foto-principal.png" alt="Vale das Estrelas">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="pesquisa-viagens text-center">
+        <h2>Pesquisa de Viagens</h2>
+        <form action="#" method="GET">
+            <input id="local" type="text" name="local" placeholder="Local de Destino" required>
+            <input type="date" name="data" required>
+            <input id="users" type="number" name="pessoas" placeholder="Número de Pessoas" required>
+            <a href="#" class="btn btn-primary">Pesquisar</a>
+        </form>
+
+    <!-- Destinos em destaque -->
+    <section class="secaoDeDestinos">
+        <div class="container">
+            <h2 class="mt-5">Destinos Mágicos em Destaque</h2>
+            <div class="cardsPri">
+            <div class="card" style="width: 22rem;">
+                <img class="card-img-top" src="/images/casencantado.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h4>Castelo Encantado</h4>
+                  <p class="card-text">Um majestoso castelo protegido por uma magia poderosa.</p>
+                  <a href="/Page/destinos.html" class="btn btn-primary btn-block">Vamos?</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 22rem;">
+                <img class="card-img-top" src="/images/florestaEncantada.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h4>Floresta Encantada</h4>
+                  <p class="card-text">Uma floresta densa e misteriosa, repleta de árvores antigas.</p>
+                  <a href="/Page/destinos.html" class="btn btn-primary btn-block">Vamos?</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 22rem;">
+                <img class="card-img-top" src="/images/vale.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h4>Vale das Maravilhas</h4>
+                  <p class="card-text">Um vale escondido e protegido, criando uma atmosfera de sonho e mistério.</p>
+                  <a href="/Page/destinos.html" class="btn btn-primary btn-block">Vamos?</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+<hr>
+
+    <!-- Footer -->
+   
+    <footer class="footer">
+        <div id="rodape-conteudo">
+            <p>Receba as últimas ofertas e promoções:</p>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <a href="/Page/ultimaPagina.html" class="btn btn-dark mt-3">Cadastrar</a>
+            </form>
+        </div>
+       <p>&copy; Vale das Estrelas - Todos os direitos reservados - Neucielle Quadros - RecodePro</p>
+       
+    </footer>
+
+
+
+   
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  
+</body>
+
+</html>
